@@ -33,7 +33,7 @@ Kritis is our initiative to provide an open implementation of Binary
 Authorization. This paper discusses the general ideas behind Binary
 Authorization, and as such is a first part of the Kritis initiative. It further
 touches upon some specifics of our existing implementation of Binary
-Authorization, which in its first release is focused on Google Container Engine
+Authorization, which in its first release is focused on Google Kubernetes Engine
 (GKE).
 
 ### Software Life Cycle Within an Organization
@@ -102,7 +102,7 @@ policy. Production qualification process must create the `production-approved`
 attestation on artifacts which have indeed passed the qualification. Continuous
 testing system must create the `tested` attestation.
 
-## Binary Authorization Model in Google Container Engine (GKE)
+## Binary Authorization Model in Google Kubernetes Engine (GKE)
 
 Binary Authorization for GKE (BinAuthz) is available as an Alpha release. We
 overview its design, discussing some of the more interesting choices. In a
